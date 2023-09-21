@@ -1,0 +1,49 @@
+.bodyForm{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 50vw;
+}
+
+.F{
+    margin-bottom: 20px;
+}
+
+.input-field{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.btn{
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 0.5s ease-out;
+}
+
+@media screen and (max-width: 770px){
+    .bodyCont{
+       display: flex;
+       justify-content: center;
+    }
+    .bodyForm{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .bodyForm{
+        width: 70vw;
+    }
+}
+
+.red{
+    color: red;
+}

@@ -1,0 +1,8 @@
+.head{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    color: aliceblue;
+    text-align: center;
+}

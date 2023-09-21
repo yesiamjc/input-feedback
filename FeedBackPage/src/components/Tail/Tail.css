@@ -1,0 +1,11 @@
+.tail-f{
+    background-color: purple;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.last-heading{
+    text-align: center;
+}
