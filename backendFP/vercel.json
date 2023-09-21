@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/create",
-        "destination": "/index.js"
+        "destination": "https://input-feedback-api.vercel.app/api/create"
       }
     ]
   }
